@@ -41,7 +41,7 @@ export async function LeftSection() {
         </div>
 
 
-        <div className="flex flex-col items-center items-center gap-4 rounded-md bg-cover bg-no-repeat p-8 bg-center">
+        <div className="flex flex-col items-center gap-4 rounded-md bg-cover bg-no-repeat p-8 bg-center">
           <div className="w-10 h-10 flex-none rounded-full bg-secondary text-white flex items-center justify-center">
             <Phone />
           </div>
