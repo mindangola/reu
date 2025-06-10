@@ -70,7 +70,7 @@ export function Footer() {
           <span className="text-sm sm:text-center text-white">
             © 2023{' '}
             <Link href="/" className="hover:underline">
-              Regulariza
+              R&EU
             </Link>
             . All Rights Reserved.
           </span>

@@ -3,9 +3,7 @@ import Link from "next/link";
 export function ServiceCard() {
     return (
         <div className="bg-white space-y-4 p-13 overflow-hidden rounded-md shadow-md">
-            <div className="text-white rounded-full text-3xl mb-2">
-              <img src="/assets/service1.jpg" alt="Service 1" className="w-full" />
-            </div>
+            
             <div className="mt-4">
                 <h3 className="text-2xl text-primary mb-4 font-bold">
                     Gestão de Activos Imobiliários

@@ -21,9 +21,9 @@ export function AboutSection() {
                   Conheça nossa história
                 </h2>
               </div>
-              <div className="mb-12 max-w-[540px] lg:mb-0 animate-fade-up animate-once animate-duration-[2000ms]">
+              <div className="mb-12 md:max-w-[540px] lg:mb-0 animate-fade-up animate-once animate-duration-[2000ms]">
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                A Kbusiness é uma empresa multiárea com presença nas áreas de Água & Saneamento, Agronegócio e Comunicação Visual. Atuamos como fornecedores estratégicos de soluções químicas, produtos agrícolas e serviços gráficos, sempre guiados por responsabilidade, inovação e compromisso com o cliente.
+                  A Kbusiness é uma empresa multiárea com presença nas áreas de Água & Saneamento, Agronegócio e Comunicação Visual. Atuamos como fornecedores estratégicos de soluções químicas, produtos agrícolas e serviços gráficos, sempre guiados por responsabilidade, inovação e compromisso com o cliente.
                 </p>
               </div>
 

@@ -17,10 +17,10 @@ export function TestemonialCard({ testemonial }: TestemonialCardProps) {
   return (
     <div
       className={clsx(
-        'w-full max-w-5xl p-8  md:p-10 lg:p-10 bg-white h-96  md:h-[490px] gap-8 sm:gap-8  group  shadow-lg  rounded-2xl flex flex-col md:flex-row items-center justify-center',
+        'w-full max-w-5xl p-8  md:p-10 lg:p-10 bg-white md:h-96 lg:h-[490px] gap-8 sm:gap-8  group  shadow-lg  rounded-2xl flex flex-col md:flex-row md:items-center justify-center',
       )}
     > 
-      <div className='bg-primary w-full flex-none  md:w-[400px] md:h-[400px]'>
+      <div className='bg-primary flex-none w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px]'>
           <Image
               src={String(testemonial.image)}
               alt="Icon"
