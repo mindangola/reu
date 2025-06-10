@@ -3,7 +3,7 @@ import { Form } from './Form'
 
 export function Contact() {
   return (
-    <section id="contactos" className=" mb-20 py-16 md:py-28 xl:py-32">
+    <section id="contactos" className=" mb-20">
       <LeftSection />
       <div className="max-w-6xl w-full flex flex-col items-center mx-auto px-5 sm:px-8 xl:p-0">
         
