@@ -100,8 +100,8 @@ export function Header() {
           </div>
 
           <div className='md:w-[50%] flex mt-10 md:mt-0 flex-col h-full items-center md:items-end justify-end'>
-            <img src="/assets/woman-hero.png" alt="" className='w-full md:w-[55%] lg:w-[60%] lg:-right-8 xl:-right-20 bottom-0 md:absolute ' />
-            <img src="/assets/element.png" alt="" className='-translate-x-10 absolute bottom-0 -z-10' />
+            <img src="/assets/woman-hero.png" alt="" className='w-full md:w-[65%] invert-100 lg:w-[65%] -z-10 lg:right-8 xl:right-20 bottom-0 md:absolute ' />
+            <img src="/assets/element.png" alt="" className='-translate-x-10 absolute bottom-0 -z-20' />
           </div>
         </div>
       </div>
