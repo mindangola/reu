@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+      "title": "Criação e Estruturação de Empresas",
+      "description": "Apoio completo na abertura legal de empresas, definição do modelo de negócio, estrutura societária, escolha do regime tributário e regularização junto aos órgãos competentes."
+    },
+    {
+        "id": 2,
+      "title": "Consultoria Estratégica e Expansão de Negócios",
+      "description": "Análise de oportunidades de mercado, desenvolvimento de estratégias de crescimento, internacionalização e identificação de parceiros estratégicos."
+    },
+    {
+        "id": 3,
+      "title": "Aprimoramento de Performance Empresarial",
+      "description": "Diagnóstico organizacional, revisão de processos, estruturação de equipes, melhoria de indicadores de performance e definição de metas."
+    },
+    {
+        "id": 4,
+      "title": "Consultoria Jurídica Empresarial",
+      "description": "Assessoria jurídica preventiva e corretiva em contratos, societário, compliance, propriedade intelectual e questões regulatórias."
+    },
+    {
+        "id": 5,
+      "title": "Formação e Capacitação Empresarial",
+      "description": "Treinamentos e workshops voltados para liderança, gestão empresarial, vendas, marketing digital, direito empresarial e inovação."
+    },
+    {
+        "id": 6,
+      "title": "Criação de Material de Merchandising e Branding",
+      "description": "Desenvolvimento de identidade visual, material gráfico e promocional, design de marca, presença digital e posicionamento no mercado."
+    },
+    {
+        "id": 7,
+      "title": "Estudos e Análises de Mercado",
+      "description": "Pesquisas personalizadas para identificar tendências, perfil do consumidor, concorrência e viabilidade de produtos ou serviços."
+    },
+    {
+        "id": 8,
+      "title": "Presença Digital e Marketing Estratégico",
+      "description": "Estratégias para redes sociais, campanhas digitais, SEO e tráfego pago."
+    }
+  ]
+  

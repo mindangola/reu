@@ -8,10 +8,10 @@ export function Footer() {
         <div className="md:flex">
           <div className="mb-6 md:mb-0 md:mr-40">
             <Link href="/" className="flex items-center mb-4">
-              <img src="/assets/logo.svg" className="h-16 me-3" alt="Dourus Logo" />
+              <img src="/assets/logo.png" className="h-16 me-3" alt="Dourus Logo" />
             </Link>
             <p className="text-white text-base max-w-[350px]">
-              Ao serviço da nação
+              R&EU onde o seu negócio encontra direção
             </p>
           </div>
           <div className="flex flex-col gap-8 sm:gap-24 sm:flex-row">

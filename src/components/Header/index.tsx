@@ -20,7 +20,7 @@ export function Header() {
         <div className="max-w-6xl mx-auto px-5 sm:px-8 xl:px-0 flex items-center justify-between">
           <div className="w-48">
             <Link href="/">
-              <img src="/assets/logo.svg" alt="logo" />
+              <img src="/assets/logo.png" className='h-14 w-auto' alt="logo" />
             </Link>
           </div>
 
@@ -60,28 +60,34 @@ export function Header() {
       <div className="w-full flex-1 z-20">
         <div className="max-w-6xl mx-auto h-full relative flex px-5 sm:px-8 xl:px-0 flex-col md:flex-row justify-between">
           <div className="w-full md:w-1/2 max-w-[665px] py-16  md:py-28  xl:py-32 flex flex-col">
-            <p className="uppercase text-white mb-4 text-lg">consultoria empresaria</p>
+            <p className="uppercase text-white mb-4 text-lg">consultoria empresarial</p>
             <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold leading-tight mb-4">
               As melhores soluções para empresas modernas
             </h1>
 
             <h3 className="text-white text-lg sm:text-2xl max-w-[649px]">
-              Este site está em desenvolvimento pela Espaços Aberto.
+              Está em desenvolvimento pela Mind Creative
             </h3>
 
             <div className='grid grid-cols-2 gap-4 mt-15'>
-              <div className='flex items-center gap-2'> 
-                <ArrowRightCircle className='text-secondary'/>
-                <p className='text-white'>Êtica e Transparência</p>
-              </div>
-              <div className='flex items-center gap-2'> 
-                <ArrowRightCircle className='text-secondary'/>
-                <p className='text-white'>Êtica e Transparência</p>
-              </div>
-              <div className='flex items-center gap-2'> 
-                <ArrowRightCircle className='text-secondary'/>
-                <p className='text-white'>Êtica e Transparência</p>
-              </div>
+              <Link href="#mission">
+                <div className='flex items-center gap-2'> 
+                  <ArrowRightCircle className='text-secondary'/>
+                  <p className='text-white'>Ética e Transparência</p>
+                </div>
+              </Link>
+              <Link href="#mission">
+                <div className='flex items-center gap-2'> 
+                  <ArrowRightCircle className='text-secondary'/>
+                  <p className='text-white'>Inovação e Atualização</p>
+                </div>
+              </Link>
+              <Link href="#mission">
+                <div className='flex items-center gap-2'> 
+                  <ArrowRightCircle className='text-secondary'/>
+                  <p className='text-white'>Confidencialidade e Integridade</p>
+                </div>
+              </Link>
             </div>
 
             <div className="flex gap-10 mt-15">
@@ -100,8 +106,8 @@ export function Header() {
           </div>
 
           <div className='md:w-[50%] flex mt-10 md:mt-0 flex-col h-full items-center md:items-end justify-end'>
-            <img src="/assets/woman-hero.png" alt="" className='w-full md:w-[65%] lg:w-[65%] -z-10 lg:right-8 xl:right-20 bottom-0 md:absolute ' />
-            <img src="/assets/element.png" alt="" className='-translate-x-10 absolute bottom-0 -z-20' />
+            <img src="/assets/person.png" alt="" className='w-[110%] md:w-[65%] lg:w-[60%] -z-10 lg:right-8 xl:right-0 bottom-0 md:absolute ' />
+            <img src="/assets/element.png" alt="" className='w-[80%]   md:w-[45%] absolute bottom-10 -z-20' />
           </div>
         </div>
       </div>

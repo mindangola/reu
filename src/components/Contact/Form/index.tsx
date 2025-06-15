@@ -55,7 +55,7 @@ export function Form() {
         }
       </div>
 
-      <div className='flex gap-4'>
+      <div className='flex flex-col md:flex-row gap-4'>
         <div className="mb-4">
           <label className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'>Email</label>
           <input

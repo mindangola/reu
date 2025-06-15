@@ -11,7 +11,7 @@ export function AboutSection() {
         <div className="wow fadeInUp" data-wow-delay=".2s">
           <div className="flex flex-col md:flex-row md:h-auto gap-8 items-center">
             <div className='w-full lg:w-1/2 bg-primary h-full rounded-md overflow-hidden flex'>
-                <Image src="/assets/banner1.jpg" className='w-full h-auto object-cover' alt="about image" width={2080} height={1680} />
+                <Image src="/assets/about.jpg" className='w-full h-auto object-cover' alt="about image" width={2080} height={1680} />
             </div>
 
             <div className="w-full md:px-4 lg:w-1/2">
@@ -23,7 +23,7 @@ export function AboutSection() {
               </div>
               <div className="mb-12 md:max-w-[540px] lg:mb-0 animate-fade-up animate-once animate-duration-[2000ms]">
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  A Kbusiness é uma empresa multiárea com presença nas áreas de Água & Saneamento, Agronegócio e Comunicação Visual. Atuamos como fornecedores estratégicos de soluções químicas, produtos agrícolas e serviços gráficos, sempre guiados por responsabilidade, inovação e compromisso com o cliente.
+                A R&EU Consultoria Empresarial, Lda. nasceu da vontade de transformar desafios em oportunidades e de oferecer soluções estratégicas para empresas que aspiram crescer de forma sustentável. Fundada por profissionais com larga experiência nas áreas de gestão, finanças, recursos humanos e desenvolvimento organizacional, a nossa trajetória tem sido marcada pelo compromisso com a excelência, a ética e os resultados.
                 </p>
               </div>
 
@@ -34,9 +34,12 @@ export function AboutSection() {
           </div>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto">
-        
-        <MissionAndValueSection />
+
+      <div className='bg-white'>
+        <div className="max-w-6xl mx-auto">
+          
+          <MissionAndValueSection />
+        </div>
       </div>
     </section>
   )
